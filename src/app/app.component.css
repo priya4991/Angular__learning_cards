@@ -1,0 +1,7 @@
+/* cannot refer to component host name directly in the component css file, so app-root wont work */
+
+:host {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
